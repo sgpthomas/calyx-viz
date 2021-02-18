@@ -1,0 +1,13 @@
+benchmark,type,dsp,latency,lut
+2 x 2,systolic-futil,12.0,37.0,709.0
+2 x 2,systolic-futil-no-static,12.0,64.0,624.0
+2 x 2,systolic-hls,12.0,62.0,808.0
+4 x 4,systolic-futil,48.0,85.0,2608.0
+4 x 4,systolic-futil-no-static,48.0,160.0,2945.0
+4 x 4,systolic-hls,48.0,322.0,2387.0
+6 x 6,systolic-futil,108.0,141.0,5996.0
+6 x 6,systolic-futil-no-static,108.0,272.0,6958.0
+6 x 6,systolic-hls,108.0,926.0,4909.0
+8 x 8,systolic-futil,192.0,205.0,10979.0
+8 x 8,systolic-futil-no-static,192.0,404.0,13598.0
+8 x 8,systolic-hls,192.0,2210.0,8443
